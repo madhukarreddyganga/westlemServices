@@ -46,7 +46,6 @@ function App() {
 
   return (
     <div>
-      {/*below 640px we can see text and price below the image*/}
       {Array.isArray(data.groups) && (
         <Slider {...settings}>
           {data.groups.map((group, index) => {
